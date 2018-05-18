@@ -8,5 +8,5 @@ console.log("server is up and running at port 8080");
 
 app.get('/', function(request,response){
 response.send("Hello World");
-response.send(process.env.APP_MSG);
+response.send("process.env.APP_MSG");
 })
